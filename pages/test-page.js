@@ -1,7 +1,9 @@
-import Login from "../utils/loginUtil";
-
 const TestPage = () => {
-  return <Login />;
+  return (
+    <div>
+      <h1>This is the Test Page</h1>
+    </div>
+  );
 };
 
 export default TestPage;
