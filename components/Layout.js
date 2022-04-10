@@ -2,7 +2,7 @@ import styles from "../styles/Layout.module.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <>
       <Navbar styles={styles.navbar}></Navbar>
