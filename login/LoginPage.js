@@ -4,7 +4,10 @@ const LoginPage = () => {
   return (
     <div>
       <div className={styles.main}>
-        <h1 className={styles.title}>This is a Login Page</h1>
+        <h1 className={styles.title}>This is the Login Page</h1>
+        <a href="/api/auth/login">
+          <button>Please Login</button>
+        </a>
       </div>
     </div>
   );

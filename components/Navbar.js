@@ -10,11 +10,7 @@ const Navbar = (props) => {
         <a href="/api/auth/logout">
           <button>Logout</button>
         </a>
-      ) : (
-        <a href="/api/auth/login">
-          <button>Please Login</button>
-        </a>
-      )}
+      ) : null}
     </nav>
   );
 };
